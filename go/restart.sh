@@ -1,4 +1,4 @@
 #!/bin/bash
 
-go build -o isuconquest main.go
-sudo systemctl restart isu-go
+go build -o isuconquest main.go admin.go
+sudo systemctl restart isuconquest.go.service
